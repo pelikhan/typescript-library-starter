@@ -1,7 +1,7 @@
 {
-  "name": "hwrld",
-  "version": "2.0.0",
-  "description": "Can log \"hello world\" and \"goodbye world\" to the console!",
+  "name": "makecode-renderer",
+  "version": "1.0.0",
+  "description": "A React component to render MakeCode snippets",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -27,7 +27,14 @@
     "url": "https://github.com/bersling/typescript-library-starter/issues"
   },
   "homepage": "https://github.com/bersling/typescript-library-starter#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "tsc": "^1.20150623.0"
+  },
   "devDependencies": {
-    "typescript": "^2.9.2"
+    "typescript": "^3.1.6",
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.11"
   }
 }

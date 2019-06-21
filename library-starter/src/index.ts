@@ -1,2 +1,2 @@
-export {sayHello, sayGoodbye} from './hello-world'
+export { MakeCodeSnippet } from './snippet'
 
